@@ -1,0 +1,172 @@
+body {
+    background-color: #000022;
+    min-height: 100vh;
+}
+
+h1 {
+    background-color: white;
+    mix-blend-mode: screen;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+    top: 40%;
+    transform: translate(0, 260%);
+}
+
+#card {
+    margin: auto;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 75%; /* Adjust the percentage based on your design */
+    max-width: 600px;
+    height: 278px;
+    max-height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#icon-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1fr;
+    align-items: center;
+    height: 140px;
+}
+
+#icon-labels {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon-text {
+    font-family: Arial;
+    text-align: center;
+    width: 15vw;
+    margin-top: 5px;
+    background-color: rgba(red, green, blue, 0);
+}
+
+#rock,
+#paper,
+#scissors {
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 15vh;
+    max-height: 100px;
+    width: 15vw;
+    font-size: 45px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    background-color: #001242;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+    opacity: 0.9;
+}
+
+#rock:active,
+#paper:active,
+#scissors:active {
+    background-color: #000022;
+}
+
+#stats {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 100px;
+}
+
+#wins,
+#ties,
+#losses {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.popup {
+    width: 250px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    text-align: center;
+    padding: 0 30px 30px;
+    font-family: Arial;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .2);
+    transition: transform 0.4s;
+}
+
+.open-popup {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-opac {
+    opacity: 0.5;
+}
+
+#winner-image {
+    height: 200px;
+    margin-top: -125px;
+    overflow: visible;
+    background-color: transparent
+}
+
+.popup h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0px 10px;
+
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #6fd649;
+    color: #fff;
+    border:solid;
+    border-width: 2px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.popup button:hover {
+    opacity: 0.8;
+}
+
+.popup button:active {
+    background-color: #fff;
+    color: #6fd649;
+}
