@@ -1108,7 +1108,7 @@ const countries = {
 
     123: {
         name: "Nigeria",
-        image: "Nigeria.png",
+        image: "https://flagcdn.com/w640/ng.png",
         continent: "Africa",
         letter: "N",
         region: "West Africa",
@@ -1117,7 +1117,7 @@ const countries = {
 
     125: {
         name: "North Macedonia",
-        image: "North_Macedonia.png",
+        image: "https://flagcdn.com/w640/mk.png",
         continent: "Europe",
         letter: "N",
         region: "Balkans",
@@ -1126,7 +1126,7 @@ const countries = {
 
     126: {
         name: "Norway",
-        image: "Norway.png",
+        image: "https://flagcdn.com/w640/no.png",
         continent: "Europe",
         letter: "N",
         region: "Northern Europe",
@@ -1135,7 +1135,7 @@ const countries = {
 
     127: {
         name: "Oman",
-        image: "Oman.png",
+        image: "https://flagcdn.com/w640/om.png",
         continent: "Asia",
         letter: "O",
         region: "Middle East",
@@ -1144,7 +1144,7 @@ const countries = {
 
     128: {
         name: "Pakistan",
-        image: "Pakistan.png",
+        image: "https://flagcdn.com/w640/pk.png",
         continent: "Asia",
         letter: "P",
         region: "South Asia",
@@ -1153,7 +1153,7 @@ const countries = {
 
     129: {
         name: "Palau",
-        image: "Palau.png",
+        image: "https://flagcdn.com/w640/pw.png",
         continent: "Oceania",
         letter: "P",
         region: "Micronesia",
@@ -1162,7 +1162,7 @@ const countries = {
 
     130: {
         name: "Palestine",
-        image: "Palestine.png",
+        image: "https://flagcdn.com/w640/ps.png",
         continent: "Asia",
         letter: "P",
         region: "Middle East",
@@ -1171,7 +1171,7 @@ const countries = {
 
     131: {
         name: "Panama",
-        image: "Panama.png",
+        image: "https://flagcdn.com/w640/pa.png",
         continent: "North America",
         letter: "P",
         region: "Central America",
@@ -1180,7 +1180,7 @@ const countries = {
 
     132: {
         name: "Papua New Guinea",
-        image: "Papua_New_Guinea.png",
+        image: "https://flagcdn.com/w640/pg.png",
         continent: "Oceania",
         letter: "P",
         region: "Melanesia",
@@ -1189,7 +1189,7 @@ const countries = {
 
     133: {
         name: "Paraguay",
-        image: "Paraguay.png",
+        image: "https://flagcdn.com/w640/pg.png",
         continent: "South America",
         letter: "P",
         region: "Southern Cone",
@@ -1198,7 +1198,7 @@ const countries = {
 
     134: {
         name: "Peru",
-        image: "Peru.png",
+        image: "https://flagcdn.com/w640/pe.png",
         continent: "South America",
         letter: "P",
         region: "Andean",
@@ -1207,7 +1207,7 @@ const countries = {
 
     135: {
         name: "Philippines",
-        image: "Philippines.png",
+        image: "https://flagcdn.com/w640/ph.png",
         continent: "Asia",
         letter: "P",
         region: "Southeast Asia",
@@ -1216,7 +1216,7 @@ const countries = {
 
     136: {
         name: "Poland",
-        image: "Poland.png",
+        image: "https://flagcdn.com/w640/pl.png",
         continent: "Europe",
         letter: "P",
         region: "Eastern Europe",
@@ -1225,7 +1225,7 @@ const countries = {
 
     137: {
         name: "Portugal",
-        image: "Portugal.png",
+        image: "https://flagcdn.com/w640/pt.png",
         continent: "Europe",
         letter: "P",
         region: "Southern Europe",
@@ -1234,7 +1234,7 @@ const countries = {
 
     138: {
         name: "Qatar",
-        image: "Qatar.png",
+        image: "https://flagcdn.com/w640/qa.png",
         continent: "Asia",
         letter: "Q",
         region: "Middle East",
@@ -1243,7 +1243,7 @@ const countries = {
 
     139: {
         name: "Romania",
-        image: "Romania.png",
+        image: "https://flagcdn.com/w640/ro.png",
         continent: "Europe",
         letter: "R",
         region: "Eastern Europe",
@@ -1252,7 +1252,7 @@ const countries = {
 
     140: {
         name: "Russia",
-        image: "Russia.png",
+        image: "https://flagcdn.com/w640/ru.png",
         continent: "Europe and Asia",
         letter: "R",
         region: "Eastern Europe",
@@ -1261,7 +1261,7 @@ const countries = {
 
     141: {
         name: "Rwanda",
-        image: "Rwanda.png",
+        image: "https://flagcdn.com/w640/rw.png",
         continent: "Africa",
         letter: "R",
         region: "East Africa",
@@ -1270,7 +1270,7 @@ const countries = {
 
     142: {
         name: "Saint Kitts and Nevis",
-        image: "Saint_Kitts_and_Nevis.png",
+        image: "https://flagcdn.com/w640/kn.png",
         continent: "North America",
         letter: "S",
         region: "Caribbean",
@@ -1279,7 +1279,7 @@ const countries = {
 
     143: {
         name: "Saint Lucia",
-        image: "Saint_Lucia.png",
+        image: "https://flagcdn.com/w640/lc.png",
         continent: "North America",
         letter: "S",
         region: "Caribbean",
@@ -1288,7 +1288,7 @@ const countries = {
 
     144: {
         name: "Saint Vincent and the Grenadines",
-        image: "Saint_Vincent_and_the_Grenadines.png",
+        image: "https://flagcdn.com/w640/vc.png",
         continent: "North America",
         letter: "S",
         region: "Caribbean",
@@ -1297,7 +1297,7 @@ const countries = {
 
     145: {
         name: "Samoa",
-        image: "Samoa.png",
+        image: "https://flagcdn.com/w640/ws.png",
         continent: "Oceania",
         letter: "S",
         region: "Polynesia",
@@ -1306,7 +1306,7 @@ const countries = {
 
     146: {
         name: "San Marino",
-        image: "San_Marino.png",
+        image: "https://flagcdn.com/w640/sm.png",
         continent: "Europe",
         letter: "S",
         region: "Southern Europe",
@@ -1315,7 +1315,7 @@ const countries = {
 
     147: {
         name: "Sao Tome and Principe",
-        image: "Sao_Tome_and_Principe.png",
+        image: "https://flagcdn.com/w640/st.png",
         continent: "Africa",
         letter: "S",
         region: "Central Africa",
@@ -1324,7 +1324,7 @@ const countries = {
 
     148: {
         name: "Saudi Arabia",
-        image: "Saudi_Arabia.png",
+        image: "https://flagcdn.com/w640/sa.png",
         continent: "Asia",
         letter: "S",
         region: "Middle East",
@@ -1333,7 +1333,7 @@ const countries = {
 
     149: {
         name: "Senegal",
-        image: "Senegal.png",
+        image: "https://flagcdn.com/w640/sn.png",
         continent: "Africa",
         letter: "S",
         region: "West Africa",
@@ -1342,7 +1342,7 @@ const countries = {
 
     150: {
         name: "Serbia",
-        image: "Serbia.png",
+        image: "https://flagcdn.com/w640/rs.png",
         continent: "Europe",
         letter: "S",
         region: "Balkans",
@@ -1351,7 +1351,7 @@ const countries = {
 
     151: {
         name: "Seychelles",
-        image: "Seychelles.png",
+        image: "https://flagcdn.com/w640/sc.png",
         continent: "Africa",
         letter: "S",
         region: "East Africa",
@@ -1360,7 +1360,7 @@ const countries = {
 
     152: {
         name: "Sierra Leone",
-        image: "Sierra_Leone.png",
+        image: "https://flagcdn.com/w640/sl.png",
         continent: "Africa",
         letter: "S",
         region: "West Africa",
@@ -1369,7 +1369,7 @@ const countries = {
 
     153: {
         name: "Singapore",
-        image: "Singapore.png",
+        image: "https://flagcdn.com/w640/sg.png",
         continent: "Asia",
         letter: "S",
         region: "Southeast Asia",
@@ -1378,7 +1378,7 @@ const countries = {
 
     154: {
         name: "Slovakia",
-        image: "Slovakia.png",
+        image: "https://flagcdn.com/w640/sk.png",
         continent: "Europe",
         letter: "S",
         region: "Central Europe",
@@ -1387,7 +1387,7 @@ const countries = {
 
     155: {
         name: "Slovenia",
-        image: "Slovenia.png",
+        image: "https://flagcdn.com/w640/si.png",
         continent: "Europe",
         letter: "S",
         region: "Central Europe",
@@ -1396,7 +1396,7 @@ const countries = {
 
     156: {
         name: "Solomon Islands",
-        image: "Solomon_Islands.png",
+        image: "https://flagcdn.com/w640/sb.png",
         continent: "Oceania",
         letter: "S",
         region: "Melanesia",
@@ -1405,7 +1405,7 @@ const countries = {
 
     157: {
         name: "Somalia",
-        image: "Somalia.png",
+        image: "https://flagcdn.com/w640/so.png",
         continent: "Africa",
         letter: "S",
         region: "East Africa",
@@ -1414,7 +1414,7 @@ const countries = {
 
     158: {
         name: "South Africa",
-        image: "South_Africa.png",
+        image: "https://flagcdn.com/w640/za.png",
         continent: "Africa",
         letter: "S",
         region: "Southern Africa",
@@ -1423,7 +1423,7 @@ const countries = {
 
     160: {
         name: "South Sudan",
-        image: "South_Sudan.png",
+        image: "https://flagcdn.com/w640/ss.png",
         continent: "Africa",
         letter: "S",
         region: "East Africa",
@@ -1432,7 +1432,7 @@ const countries = {
 
     161: {
         name: "Spain",
-        image: "Spain.png",
+        image: "https://flagcdn.com/w640/es.png",
         continent: "Europe",
         letter: "S",
         region: "Southern Europe",
@@ -1441,7 +1441,7 @@ const countries = {
 
     162: {
         name: "Sri Lanka",
-        image: "Sri_Lanka.png",
+        image: "https://flagcdn.com/w640/lk.png",
         continent: "Asia",
         letter: "S",
         region: "South Asia",
@@ -1450,7 +1450,7 @@ const countries = {
 
     163: {
         name: "Sudan",
-        image: "Sudan.png",
+        image: "https://flagcdn.com/w640/sd.png",
         continent: "Africa",
         letter: "S",
         region: "North Africa",
@@ -1460,7 +1460,7 @@ const countries = {
 
     164: {
         name: "Suriname",
-        image: "Suriname.png",
+        image: "https://flagcdn.com/w640/sr.png",
         continent: "South America",
         letter: "S",
         region: "Guianas",
@@ -1469,7 +1469,7 @@ const countries = {
 
     166: {
         name: "Sweden",
-        image: "Sweden.png",
+        image: "https://flagcdn.com/w640/se.png",
         continent: "Europe",
         letter: "S",
         region: "Northern Europe",
@@ -1478,7 +1478,7 @@ const countries = {
 
     167: {
         name: "Switzerland",
-        image: "Switzerland.png",
+        image: "https://flagcdn.com/w640/ch.png",
         continent: "Europe",
         letter: "S",
         region: "Western Europe",
@@ -1487,7 +1487,7 @@ const countries = {
 
     168: {
         name: "Syria",
-        image: "Syria.png",
+        image: "https://flagcdn.com/w640/sy.png",
         continent: "Asia",
         letter: "S",
         region: "Middle East",
@@ -1496,7 +1496,7 @@ const countries = {
 
     169: {
         name: "Taiwan",
-        image: "Taiwan.png",
+        image: "https://flagcdn.com/w640/tw.png",
         continent: "Asia",
         letter: "T",
         region: "East Asia",
@@ -1505,7 +1505,7 @@ const countries = {
 
     170: {
         name: "Tajikistan",
-        image: "Tajikistan.png",
+        image: "https://flagcdn.com/w640/tj.png",
         continent: "Asia",
         letter: "T",
         region: "Central Asia",
@@ -1514,7 +1514,7 @@ const countries = {
 
     171: {
         name: "Tanzania",
-        image: "Tanzania.png",
+        image: "https://flagcdn.com/w640/tz.png",
         continent: "Africa",
         letter: "T",
         region: "East Africa",
@@ -1523,7 +1523,7 @@ const countries = {
 
     172: {
         name: "Thailand",
-        image: "Thailand.png",
+        image: "https://flagcdn.com/w640/th.png",
         continent: "Asia",
         letter: "T",
         region: "Southeast Asia",
@@ -1532,7 +1532,7 @@ const countries = {
 
     173: {
         name: "Timor-Leste",
-        image: "Timor-Leste.png",
+        image: "https://flagcdn.com/w640/tl.png",
         continent: "Asia",
         letter: "T",
         region: "Southeast Asia",
@@ -1541,7 +1541,7 @@ const countries = {
 
     174: {
         name: "Togo",
-        image: "Togo.png",
+        image: "https://flagcdn.com/w640/tg.png",
         continent: "Africa",
         letter: "T",
         region: "West Africa",
@@ -1550,7 +1550,7 @@ const countries = {
 
     175: {
         name: "Tonga",
-        image: "Tonga.png",
+        image: "https://flagcdn.com/w640/to.png",
         continent: "Oceania",
         letter: "T",
         region: "Polynesia",
@@ -1559,7 +1559,7 @@ const countries = {
 
     176: {
         name: "Trinidad and Tobago",
-        image: "Trinidad_and_Tobago.png",
+        image: "https://flagcdn.com/w640/tt.png",
         continent: "North America",
         letter: "T",
         region: "Caribbean",
@@ -1568,7 +1568,7 @@ const countries = {
 
     177: {
         name: "Tunisia",
-        image: "Tunisia.png",
+        image: "https://flagcdn.com/w640/tn.png",
         continent: "Africa",
         letter: "T",
         region: "North Africa",
@@ -1577,7 +1577,7 @@ const countries = {
 
     178: {
         name: "Turkey",
-        image: "Turkey.png",
+        image: "https://flagcdn.com/w640/tr.png",
         continent: "Asia",
         letter: "T",
         region: "Middle East",
@@ -1586,7 +1586,7 @@ const countries = {
 
     179: {
         name: "Turkmenistan",
-        image: "Turkmenistan.png",
+        image: "https://flagcdn.com/w640/tm.png",
         continent: "Asia",
         letter: "T",
         region: "Central Asia",
@@ -1595,7 +1595,7 @@ const countries = {
 
     180: {
         name: "Tuvalu",
-        image: "Tuvalu.png",
+        image: "https://flagcdn.com/w640/tv.png",
         continent: "Oceania",
         letter: "T",
         region: "Polynesia",
@@ -1604,7 +1604,7 @@ const countries = {
 
     181: {
         name: "Uganda",
-        image: "Uganda.png",
+        image: "https://flagcdn.com/w640/ug.png",
         continent: "Africa",
         letter: "U",
         region: "East Africa",
@@ -1613,7 +1613,7 @@ const countries = {
 
     182: {
         name: "Ukraine",
-        image: "Ukraine.png",
+        image: "https://flagcdn.com/w640/ua.png",
         continent: "Europe",
         letter: "U",
         region: "Eastern Europe",
@@ -1622,7 +1622,7 @@ const countries = {
 
     183: {
         name: "United Arab Emirates",
-        image: "United_Arab_Emirates.png",
+        image: "https://flagcdn.com/w640/ae.png",
         continent: "Asia",
         letter: "U",
         region: "Middle East",
@@ -1631,7 +1631,7 @@ const countries = {
 
     184: {
         name: "United Kingdom",
-        image: "United_Kingdom.png",
+        image: "https://flagcdn.com/w640/gb.png",
         continent: "Europe",
         letter: "U",
         region: "Western Europe",
@@ -1640,7 +1640,7 @@ const countries = {
 
     185: {
         name: "United States",
-        image: "United_States.png",
+        image: "https://flagcdn.com/w640/us.png",
         continent: "North America",
         letter: "U",
         region: "North America",
@@ -1648,7 +1648,7 @@ const countries = {
     },
 
     186: {
-        name: "Uruguay",
+        name: "https://flagcdn.com/w640/uy.png",
         image: "Uruguay.png",
         continent: "South America",
         letter: "U",
@@ -1658,7 +1658,7 @@ const countries = {
 
     187: {
         name: "Uzbekistan",
-        image: "Uzbekistan.png",
+        image: "https://flagcdn.com/w640/uz.png",
         continent: "Asia",
         letter: "U",
         region: "Central Asia",
@@ -1667,7 +1667,7 @@ const countries = {
 
     188: {
         name: "Vanuatu",
-        image: "Vanuatu.png",
+        image: "https://flagcdn.com/w640/vu.png",
         continent: "Oceania",
         letter: "V",
         region: "Melanesia",
@@ -1676,7 +1676,7 @@ const countries = {
 
     189: {
         name: "Vatican City",
-        image: "Vatican_City.png",
+        image: "https://flagcdn.com/w640/va.png",
         continent: "Europe",
         letter: "V",
         region: "Southern Europe",
@@ -1685,7 +1685,7 @@ const countries = {
 
     190: {
         name: "Venezuela",
-        image: "Venezuela.png",
+        image: "https://flagcdn.com/w640/ve.png",
         continent: "South America",
         letter: "V",
         region: "Northern South America",
@@ -1694,7 +1694,7 @@ const countries = {
 
     191: {
         name: "Vietnam",
-        image: "Vietnam.png",
+        image: "https://flagcdn.com/w640/vn.png",
         continent: "Asia",
         letter: "V",
         region: "Southeast Asia",
@@ -1703,7 +1703,7 @@ const countries = {
 
     192: {
         name: "Yemen",
-        image: "Yemen.png",
+        image: "https://flagcdn.com/w640/ye.png",
         continent: "Asia",
         letter: "Y",
         region: "Middle East",
@@ -1712,7 +1712,7 @@ const countries = {
 
     193: {
         name: "Zambia",
-        image: "Zambia.png",
+        image: "https://flagcdn.com/w640/zm.png",
         continent: "Africa",
         letter: "Z",
         region: "Southern Africa",
@@ -1721,7 +1721,7 @@ const countries = {
 
     165: {
         name: "Zimbabwe",
-        image: "Zimbabwe.png",
+        image: "https://flagcdn.com/w640/zw.png",
         continent: "Africa",
         letter: "Z",
         region: "Southern Africa",
@@ -1730,7 +1730,7 @@ const countries = {
 
     124: {
         name: "Moldova",
-        image: "Moldova.png",
+        image: "https://flagcdn.com/w640/md.png",
         continent: "Europe", 
         letter: "M",
         region: "Balkan",
@@ -1740,7 +1740,7 @@ const countries = {
 
     159: {
         name: "Mongolia",
-        image: "Mongola.png",
+        image: "https://flagcdn.com/w640/mn.png",
         continent: "Asia",
         letter: "M",
         region: "East Asia",
