@@ -1841,7 +1841,7 @@ const countries = {
     let winDisplay = document.getElementById("winner-display");
     winDisplay.innerText = "Well done! You got it!.";
     let summaryDisplay = document.getElementById("summary");
-    summaryDisplay.innerText = "masonbacon.net";
+    summaryDisplay.innerText = "masonbacon.xyz";
 
    }
 
