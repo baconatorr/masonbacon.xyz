@@ -24,8 +24,8 @@ background-color: antiquewhite;
 
 
 #games img {
-    width: 33vw;
-    height: 15vh;
+    width: 30vw;
+    height: 30vh;
     border: ridge 10px black;
     border-radius: 20px;
     transition: transform 0.4s, box-shadow 0.4s;
