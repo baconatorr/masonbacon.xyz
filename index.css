@@ -30,6 +30,7 @@ background-color: antiquewhite;
     border-radius: 20px;
     transition: transform 0.4s, box-shadow 0.4s;
     margin: 5px;
+    object-fit: cover;
 }
 
 #games img:hover {
