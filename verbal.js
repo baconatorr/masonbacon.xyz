@@ -190,9 +190,9 @@ document.getElementById("not-seen").disabled = true;
     
     } else if (wordSeen == false) {
       lives--;
+    ``wordsObject[wordID].seen = true;
       newWord();
       updateScreen();
-      wordsObject[wordID].seen = true;
       if (lives == 0) {
         endGame();
       }
