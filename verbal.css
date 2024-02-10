@@ -17,6 +17,10 @@ body {
 }
 
 .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
   background-color: rgb(43, 135, 209);
   color: rgb(255, 255, 255);
   position: absolute;
@@ -24,6 +28,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 .content:hover {
     cursor:default;
@@ -88,7 +93,8 @@ body {
     justify-content: center;
     font-size: 19px;
     font-weight: lighter;
-    height: 80px;
+    height: 30%;
+    width: 100%;
 }
 
 #lives,
@@ -124,7 +130,8 @@ body {
 }
 
 #word-text{
-    height: 30px;
+    height: 100%;
+    font-size: 100%;
 }
 .buttons {
     height: 80px;
@@ -191,4 +198,36 @@ body {
 
 .popup button:hover{
     transform: scale(105%);
+}
+
+@media screen and (min-width: 600px){
+    #word-text {
+    font-size: 40px;
+    }
+
+    .stats {
+        font-size: 22px;
+    }
+
+    .buttons button{
+        height: 33px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #word-text {
+    font-size: 45px;
+    margin-bottom: 5px;
+    }
+
+    .stats {
+        font-size: 30px;
+    }
+
+    .buttons button{
+        height: 45px;
+        width: 120px;
+        font-size: 22px;
+    }
 }
