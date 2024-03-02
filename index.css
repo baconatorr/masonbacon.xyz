@@ -28,7 +28,7 @@ background-color: antiquewhite;
     }  
 }
 
-@media screen and (max-height: 1000px) {
+@media screen and (max-width: 900px) {
     #games{
         grid-template-columns: 1fr 1fr;
     }
