@@ -486,6 +486,10 @@ function updateScreen() {
     var score = document.getElementById("score");
     score.innerText = scoreCount;
 }
+function openDirect() {
+    let popup = document.getElementById("direct-popup");
+    popup.classList.add("open-popup");
+}
 
 //int game on window load
 window.onload = () => {
