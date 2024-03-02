@@ -22,10 +22,13 @@ background-color: antiquewhite;
     object-fit: cover;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 901px) {
     #games{
         grid-template-columns: 1fr 1fr 1fr;
     }  
+    #games img{
+        height: 30vh;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -40,7 +43,6 @@ background-color: antiquewhite;
 
 #games img {
     width: 30vw;
-    height: 30vh;
     border: ridge 10px black;
     border-radius: 20px;
     transition: transform 0.4s, box-shadow 0.4s;
