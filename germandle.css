@@ -87,6 +87,9 @@ body {
     body{
         font-size: 1em;
     } 
+    .title span{
+        font-size: 18px;
+    }   
 }
 
 @media screen and (max-width: 450px) {
