@@ -32,6 +32,9 @@ background-color: antiquewhite;
     #games{
         grid-template-columns: 1fr 1fr;
     }
+    #games img {
+        height: 15vh;
+    }
 }  
 
 
