@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Germandle | masonbacon.xyz">
+    <meta name="description" content="Germandle; Can you guess if these german words are real or complete BS?">
+    <meta name="keywords" content="germandle, funny german words">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <title>Germandle | masonbacon.xyz</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="germandle.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="screen">
+        <div class="header">
+            <div id="menu">
+                <a href="https://masonbacon.xyz" style="color: black;"><i class='bx bxs-home bx-sm'></i></a>
+            </div>
+            <div class="title">
+                <h2><span class="black">G</span>
+                    <span class="red">e</span>
+                    <span class="yellow">r</span>
+                    <span class="black">m</span>
+                    <span class="red">a</span>
+                    <span class="yellow">n</span>
+                    <span class="black">d</span>
+                    <span class="red">l</span>
+                    <span class="yellow">e</span></h2>
+            </div>
+            <div id="icons">
+                <i class='bx bx-question-mark bx-sm'></i>
+                <i class='bx bxl-github bx-sm'></i>
+            </div>
+        </div>
+        <div class="content">
+            <div id="stats">
+                <div id="life">Lives: <span id="lives">3</span></div>
+                <div id="scores">Score: <span id="score">0</span></div>
+            </div>
+            <div class="word">
+                <p id="word">Sitzfleisch</p>
+            </div>
+            <div class="definition">
+                <p id="def"><span id="type">noun</span><span id="definition">"sitting flesh", a term for one's bottom</span></p>
+            </div>
+            <div class="buttons">
+                <div class="real">
+                    <button id="real-button" class="button" onclick="calc(true)">Real</button>
+                </div>
+                <div class="fake">
+                    <button id="fake-button" class="button" onclick="calc(false)">Fake</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <img src="icon.png"></img>
+        <h2 id="winner-display">German is hard...</h2>
+        <h3 id="summary" style="font-weight: 500;">@masonbacon.xyz on tiktok</h3>
+        <button id="new-game" onclick="newGame()">New Game</button>
+    </div>
+<script src="germandle.js"></script>
+</body>
+</html>
