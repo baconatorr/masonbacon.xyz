@@ -22,6 +22,18 @@ background-color: antiquewhite;
     object-fit: cover;
 }
 
+@media screen and (min-width: 1200px) {
+    #games{
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    #games{
+        grid-template-columns: 1fr 1fr;
+    }
+}  
+
 
 #games img {
     width: 30vw;
