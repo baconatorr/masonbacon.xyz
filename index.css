@@ -43,7 +43,7 @@ background-color: rgb(255, 253, 253);
 
 #games img {
     width: 30vw;
-    border: ridge 10px black;
+    border: 5px black;
     border-radius: 20px;
     transition: transform 0.4s, box-shadow 0.4s;
     margin: 5px;
