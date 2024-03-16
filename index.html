@@ -23,18 +23,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="header-div">
-        <h1 id="header">masonbacon.xyz</h1>
-        <h4 id="subheader">i love bacon 🥓</h4>
-    </div>
-    <div id="games" class="total">
-        <a href="flag-guesser.html">
-            <img src="flag game thumbnail.png" alt="Rock Paper Scissors"></img>
-        </a>
-        <a href="https://germandle.fun">
-            <img src="germandle thumbnail.png" alt="germandle"></img>
-        </a>
-    </div>
-    <div id="footer"></div>
+    <div id="cards">
+        <div class="card" onclick="openPage(flagguesser.html)">
+          <div class="card-content">
+            <div class="card-image">
+              <i class="fa-duotone fa-apartment"></i>
+            </div>
+            <div class="card-info-wrapper">
+              <div class="card-info">
+                <i class="fa-duotone fa-apartment"></i>
+                <div class="card-info-title">
+                  <h3>Flag Guesser</h3>  
+                  <h4>Places to be apart. Wait, what?</h4>
+                </div>    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="card-image">
+              <i class="fa-duotone fa-unicorn"></i>
+            </div>
+            <div class="card-info-wrapper">
+              <div class="card-info">
+                <i class="fa-duotone fa-unicorn"></i>
+                <div class="card-info-title">
+                  <h3>Germandle</h3>  
+                  <h4>A single corn. Er, I mean horn.</h4>
+                </div>    
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <a id="github-link" class="link" href="https://youtu.be/htGfnF1zN4g" target="_blank">
+        <i class="fa-brands fa-youtube"></i>
+        <span>5 min Tutorial</span>
+      </a>
+
+      <script src="index.js"></script>
 </body>
 </html>
